@@ -103,7 +103,7 @@ def Get_albumPage(url):
 # 判斷相簿頁面是否需要輸入密碼
 def get_EncryptURL(url):
     content = parse_page(url)
-    password = "23710148"  # 相簿密碼，目前版本只支援全部相簿密碼都一樣
+    password = ""  # 相簿密碼，目前版本只支援全部相簿密碼都一樣，請自行填入
     checkpwd = content.find(id="pwd")
     if checkpwd is not None:
         #####################################################
