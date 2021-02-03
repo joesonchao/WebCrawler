@@ -10,8 +10,7 @@ from tqdm import tqdm
 
 FQDN = "https://photo.xuite.net/"
 # 輸入你想要的相簿名稱
-albumName = "ntuhwatermelon"
-# albumName = "tsaibill5838"
+albumName = "tsaibill5838"
 
 albumPages = 1  # 預設相簿頁數
 DownloadPath = "D:\\"  # 預設相簿路徑
